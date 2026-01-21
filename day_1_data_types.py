@@ -146,3 +146,12 @@ else:
 
 print("your tax is", tax)
 
+# finding indexing value  and printing indexing word by using for loop
+# used to find big sentence and  paragraphs without counting words
+s="python is very easy to learn and understand "
+y=(s.split())
+print(y)
+print(len(y))
+for i in range(0,8):
+    print(i,y[i])
+print(y[3])
