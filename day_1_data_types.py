@@ -149,9 +149,9 @@ print("your tax is", tax)
 # finding indexing value  and printing indexing word by using for loop
 # used to find big sentence and  paragraphs without counting words
 s="python is very easy to learn and understand "
-y=(s.split())
+y=(s.split())# converts string to list 
 print(y)
 print(len(y))
-for i in range(0,8):
+for i in range(0,8):# range of list
     print(i,y[i])
 print(y[3])
