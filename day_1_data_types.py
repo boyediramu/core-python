@@ -1,69 +1,73 @@
-# # '''primitive data types''' 
-# # integer
-# a=10 
-# b=20
-# print("the sum of two numbers is",a+b)
-# # float
-# price=99.99
-# print("the price is",price)
-# # string
-# name="ram"
-# print("my name is ",name)
-# # boolean
-# x=True
-# print(type(x))
+# '''primitive data types''' 
+# integer
+a=10 
+b=20
+print("the sum of two numbers is",a+b)
 
-# result=10>5
-# print(result)
+# float
+price=99.99
+print("the price is",price)
 
-# # integer + string
-# age=25
-# print("im",age," years old")
+# string
+name="ram"
+print("my name is ",name)
 
-# # None type
-# data=None
-# print(type(data))
+# boolean
+x=True
+print(type(x))
 
-# # problem solving
-# name=input("enter your name")
-# age=int(input("enter your age"))
-# print(f"hello {name} your age is {age}")
+result=10>5
+print(result)
 
-# # even or odd
-# num=int(input("enter a number"))
-# if num%2==0:
-#     print("the number is even")
-# else:
-#     print ("the number is odd")
+# integer + string
+age=25
+print("im",age," years old")
 
-# # to check is the number is positive or negative or zero
-# num=int(input("enter a number"))
-# if num>0:
-#     print("the number is positive")
-# elif(num<0):
-#     print("the number is negative")
-# else:
-#     print("the number is zero")
+# None type
+data=None
+print(type(data))
 
-# # vote eligibility
-# age=int(input("enter your age"))
-# if age>=18:
-#     print("your eligible for  vote")
-# else:
-#     print("your not eligible for vote")
+# '''practice set'''
+# problem solving
+name=input("enter your name")
+age=int(input("enter your age"))
+print(f"hello {name} your age is {age}")
+
+# even or odd
+num=int(input("enter a number"))
+if num%2==0:
+    print("the number is even")
+else:
+    print ("the number is odd")
+
+# to check is the number is positive or negative or zero
+num=int(input("enter a number"))
+if num>0:
+    print("the number is positive")
+elif(num<0):
+    print("the number is negative")
+else:
+    print("the number is zero")
+
+# vote eligibility
+age=int(input("enter your age"))
+if age>=18:
+    print("your eligible for  vote")
+else:
+    print("your not eligible for vote")
 
 # simple calculator
-# a=int(input("enter a number"))
-# b=int(input("enter a number"))
-# print("sum of",a+b)
-# print("difference of",a-b)
-# print("product of ",a*b)
-# print("division of",a/b)
+a=int(input("enter a number"))
+b=int(input("enter a number"))
+print("sum of",a+b)
+print("difference of",a-b)
+print("product of ",a*b)
+print("division of",a/b)
 
-# # string length and type
-# name=input('enter any text to find  length and its type')
-# print(len(name))
-# print(type(name))
+# string length and type
+name=input('enter any text to find  length and its type')
+print(len(name))
+print(type(name))
 
 # swap of two number 
 a = int(input("Enter a: "))
@@ -74,3 +78,71 @@ a, b = b, a
 print("After swap:")
 print("a =", a)
 print("b =", b)
+
+# type conversion
+a=input("enter a number")
+b=int(input("enter a number"))
+print(type(a))
+print(type(b))
+print(str(a)+str(b))
+
+# age category
+age=int(input("enter your age"))
+if(age>13):
+    print("child")
+elif(age<=19):
+    print("teenager")
+elif(age<=59):
+    print("adult")
+else:
+    print("senior citizen")
+
+# student grade system
+name=input("enter your name")
+id=int(input("enter your roll number"))
+
+print("each subject marks")
+
+java=int(input("enter your java marks"))
+python=int(input("enter your python marks"))
+cpp=int(input("enter your c++ marks"))
+
+print("java=",java,"python=",python,"cpp=",cpp)
+
+total=java+python+cpp
+print("your total marks is",total)
+
+marks=int(input("enter your total  marks to know your grade"))
+
+if(marks>=90):
+    print("grade A")
+elif(marks>=75):
+    print("grade B")
+elif(marks>=50):
+    print("grade C")
+else:
+    print("fail")
+
+# login validation
+username="ram"
+password="1235"
+
+user=input("enter your username")
+passw=input("enter your password")
+
+if(username==user and password==passw):
+    print("login successful")
+else:
+    print("invalid credentials")
+    
+# salary tax
+salary=float(input("enter your salary"))
+if(salary<=25000):
+    tax=0
+elif(salary<=50000):
+    tax= salary*0.5
+else:
+    tax=salary*0.8
+
+print("your tax is", tax)
+
