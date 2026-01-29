@@ -1,80 +1,80 @@
-# # 01 check even or odd
-# num=6
-# if(num%2==0):
-#     print("even")
-# else:
-#     print("odd")
+# 01 check even or odd
+num=6
+if(num%2==0):
+    print("even")
+else:
+    print("odd")
 
-# # 02 divisible by 5 but not by 10
-# number=25
-# if(number%5==0 and number%10!=0):
-#     print("the number is divisible by 5 but not by  10")
-# else:
-#     print("the number is not divisible by 5  and 10")
+# 02 divisible by 5 but not by 10
+number=25
+if(number%5==0 and number%10!=0):
+    print("the number is divisible by 5 but not by  10")
+else:
+    print("the number is not divisible by 5  and 10")
 
-# # 03 biggest among two numbers
-# a=4
-# b=7
-# if(a>b):
-#     print("a is greater than b")
-# else:
-#     print("b is greater than a")
+# 03 biggest among two numbers
+a=4
+b=7
+if(a>b):
+    print("a is greater than b")
+else:
+    print("b is greater than a")
 
-# # 04 smallest among two numbers
-# num1=4
-# num2=7
-# if(num1<num2):
-#     print("num1 is smaller than mum2")
-# else:
-#     print("num2 is smaller than num2")
+# 04 smallest among two numbers
+num1=4
+num2=7
+if(num1<num2):
+    print("num1 is smaller than mum2")
+else:
+    print("num2 is smaller than num2")
 
-# # 05 divisible by 2,3 and 6
-# n=18
-# if(n%2==0 and n%3==0 and n%6==0):
-#     print("the number is divisible by 2,3 and 6")
-# else:
-#     ("the number is not divisible")
+# 05 divisible by 2,3 and 6
+n=18
+if(n%2==0 and n%3==0 and n%6==0):
+    print("the number is divisible by 2,3 and 6")
+else:
+    ("the number is not divisible")
 
-# # 06 vote eligibility
-# age=19
-# if(age>=18):
-#     print("your eligible for vote")
-# else:
-#     print("your not  eligible for vote")
+# 06 vote eligibility
+age=19
+if(age>=18):
+    print("your eligible for vote")
+else:
+    print("your not  eligible for vote")
 
-# # 07 student pass/fail based on all subjects>=35
-# maths=40
-# physics=36
-# chemistry=30
+# 07 student pass/fail based on all subjects>=35
+maths=40
+physics=36
+chemistry=30
 
-# if(maths>=35 and physics>=35 and chemistry>=35):
-#     print("you passed")
-# else:
-#     print("you failed")
+if(maths>=35 and physics>=35 and chemistry>=35):
+    print("you passed")
+else:
+    print("you failed")
 
-# # 08 student passes if he passes in at least 2 subjects
-# maths=40
-# physics=36
-# chemistry=30
+# 08 student passes if he passes in at least 2 subjects
+maths=40
+physics=36
+chemistry=30
 
-# pass_count=0
-# if(maths>=35):
-#     pass_count+=1
-# if(physics>=35):
-#     pass_count+=1
-# if(chemistry>=35):
-#     pass_count+=1
+pass_count=0
+if(maths>=35):
+    pass_count+=1
+if(physics>=35):
+    pass_count+=1
+if(chemistry>=35):
+    pass_count+=1
 
-# if(pass_count>=2):
-#     print("passed")
-# else:
-#     print("failed")
+if(pass_count>=2):
+    print("passed")
+else:
+    print("failed")
 
-# l=[23,65,83,1,46,86,78,76,45,55,23,90,49,50]
+l=[23,65,83,1,46,86,78,76,45,55,23,90,49,50]
 
-# for i in range(0, len(l)):
-#     if l(i)>50:
-#         print(i)
+for i in range(0, len(l)):
+    if l(i)>50:
+        print(i)
 
 
 
