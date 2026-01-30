@@ -14,6 +14,7 @@ print(id(s)) # finding the id  of variable
 print(s.upper()) # make text upper
 print(s.lower()) # make text lower
 print(s.capitalize()) # make first letter capital
+print(pow(2,3))# to find power value
 
 
 

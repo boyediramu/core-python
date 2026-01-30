@@ -1,0 +1,10 @@
+num=int(input("enter 1st number: "))
+num1=int(input("enter 2nd number: "))
+
+print(num+num1)
+print(num-num1)
+print(num*num1)
+print(num/num1)
+print(num//num1)
+print(num%num1)
+print(num**num1)
